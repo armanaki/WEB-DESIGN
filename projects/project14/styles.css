@@ -1,0 +1,108 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+.section{background-image: url(images/banner-bg.png);background-repeat: no-repeat;background-size: cover;
+    background-size: 100% auto;border: 1px solid black;width: 100%;height: 65rem;}
+.nav1{display: flex;flex-direction: row;justify-content: space-between;padding: 23px;}
+
+.menu ul {list-style-type: none;background-color: #333;}
+.menu li a{text-decoration: none;color: white;font-size: 20px;}
+.list li a{padding: 15px;display: block;}
+.content{display: none;background-color: gray;padding: 20px;}
+.content a{display: block;}
+.menu:hover .content{display: block;}
+
+
+
+
+
+.item1 img{width: 80px;}
+.item2 img{width: 140px;}
+.item3 img{width: 40px;}
+.nav2 a{text-decoration: none;color: white;background-color:black;border-radius: 50px;border: 1px solid black;
+font-size: 2rem;padding: 25px;width: 11%;align-self: center;position: relative;top: 4rem;}
+.nav2 h2{color: white;font-size: 7rem;}
+.nav2{text-align: center;position: relative;top:9rem;display: flex;flex-direction: column;justify-content: center;}
+.item4 a{border: 1px solid black;border-radius: 50px;font-size: 2rem;padding: 25px;background-color: black;color: white;
+text-decoration: none;position: relative;top: 3rem;}
+.section2{display: flex;flex-direction: row;margin: 5rem 0;}
+.item4{font-size: 2rem;padding: 9rem;}
+.item5 a{border: 1px solid black;border-radius: 50px;font-size: 2rem;padding: 25px;background-color: black;color: white;
+    text-decoration: none;position: relative;top: 3rem;}
+    .section3{display: flex;flex-direction: row;margin: 5rem 0;justify-content: space-around;}
+    .section4{display: flex;flex-direction: row;margin: 5rem 0;justify-content: space-around;}
+
+    .item5{font-size: 2rem;padding: 9rem;}
+    .item6 a{border: 1px solid black;border-radius: 50px;font-size: 2rem;padding: 25px;background-color: black;color: white;
+        text-decoration: none;position: relative;top: 3rem;}
+        .item6{font-size: 2rem;padding: 9rem;}
+        .item7{font-size: 2rem;padding: 9rem;}
+        .item7 a{border: 1px solid black;border-radius: 50px;font-size: 2rem;padding: 25px;background-color: black;color: white;
+            text-decoration: none;position: relative;top: 3rem;}
+            .section5{display: flex;flex-direction: row;margin: 5rem 0;justify-content: space-around;}
+            .section6{display: flex;flex-direction: row;margin: 5rem 0;justify-content: space-around;}
+            .item8 a{border: 1px solid black;border-radius: 50px;font-size: 2rem;padding: 25px;background-color: black;color: white;
+                text-decoration: none;position: relative;top: 3rem;}
+                .item8{font-size: 2rem;padding: 9rem;}
+                .yoga{margin-right:-2rem;}
+               
+               .footer{display: flex;background-color: black;width: 100%;height:60rem;flex-direction: column;
+            justify-content: center;align-items: center;}
+            .footer1{display: flex;flex-direction: column;}
+            .img{display: flex;justify-content: center;gap: 20rem;margin-bottom: 5rem;}
+            .img1 img{width: 50px;}
+            .img3 img{width: 50px;}
+            .img2 img{width: 80px;}
+            .footer2{position:relative;top: 8rem;display: flex;flex-direction: column;align-items: center;}
+            .footer2 img{display: flex;}
+            .ax{display: flex;position: relative;top: 2rem;gap: 40px;}
+            .end a{text-decoration: none;color: white;position: relative;top: 8rem;font-size: 2rem;}
+            .logo img{width: 10rem;position: relative;bottom: 9rem;left:40rem;}
+            .img4 img{width:78px;}
+            .img5 img{width:78px;}
+            .img6 img{width:80px;}
+            hr{width: 90rem;}
+
+            @media  (max-width:570px){
+                .section{width: 117%;display: flex;flex-direction: column;background-size: cover;}
+                .nav2 a{width: 50%;}
+                .section2 img{width:880px;height: 720px;}
+                .section2{display: flex;flex-direction: column;}
+                .item4 {display: flex;flex-direction: column;padding: 0;}
+                .item4 p{text-align: justify;width: 48rem;}
+                .item4 h2 br{display: none;}
+                .item4 h2{width: 47rem;}
+                .item4 a{text-align: center;width: 70%;align-self: center;}
+                .section3 img{width:880px;height: 720px;}
+                .section3{display: flex;flex-direction: column-reverse;}
+                .item5 {display: flex;flex-direction: column;padding: 0;}
+                .item5 p{text-align: justify;width: 48rem;}
+                .item5 h2 br{display: none;}
+                .item5 h2{width: 47rem;}
+                .item5 a{text-align: center;width: 70%;align-self: center;}
+
+                .section4 img{width:880px;height: 720px;}
+                .section4{display: flex;flex-direction:column;}
+                .item6 {display: flex;flex-direction: column;padding: 0;}
+                .item6 p{text-align: justify;width: 48rem;}
+                .item6 h2 br{display: none;}
+                .item6 h2{width: 47rem;}
+                .item6 a{text-align: center;width: 70%;align-self: center;}
+
+                .section5 img{width:880px;height: 720px;}
+                .section5{display: flex;flex-direction:column-reverse;}
+                .item7 {display: flex;flex-direction: column;padding: 0;}
+                .item7 p{text-align: justify;width: 48rem;}
+                .item7 h2 br{display: none;}
+                .item7 h2{width: 47rem;}
+                .item7 a{text-align: center;width: 70%;align-self: center;}
+
+                
+                .section6 img{width:880px;height: 720px;}
+                .section6{display: flex;flex-direction:column;}
+                .item8 {display: flex;flex-direction: column;padding: 0;}
+                .item8 p{text-align: justify;width: 48rem;}
+                .item8 h2 br{display: none;}
+                .item8 h2{width: 47rem;}
+                .item8 a{text-align: center;width: 70%;align-self: center;}
+                .footer{width:44rem;}
+                .img {gap: 97px;}
+            }
