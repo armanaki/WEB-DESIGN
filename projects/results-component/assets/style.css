@@ -1,0 +1,212 @@
+*{box-sizing: border-box;}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+}
+:root{
+--Lightred: hsl(0, 100%, 67%);
+--Orangeyyellow: hsl(39, 100%, 56%);
+--Greenteal: hsl(166, 100%, 37%);
+--Cobaltblue: hsl(234, 85%, 45%);
+
+--Lightslateblue: hsl(252, 100%, 67%);
+--Lightroyalblue: hsl(241, 81%, 54%);
+
+ --Violetblue: hsla(256, 72%, 46%, 1);
+ --Persianblue: hsla(241, 72%, 46%, 0);
+ 
+ --White: hsl(0, 0%, 100%);
+ --Paleblue: hsl(221, 100%, 96%);
+ --Lightlavender: hsl(241, 100%, 89%);
+--Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+.container{
+    width: 654px;
+    height: 480px;
+    margin: 200px 200px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 22px;
+    background-color: var(--White);
+    border: 1px solid whitesmoke;
+
+        box-shadow: 6px 8px 10px lightsteelblue;
+    }
+
+
+.item1{
+    
+        width: 50%;
+        height: 478px;
+        background-color: var(--Lightslateblue);
+        border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    .item2{
+        width: 50%;
+        height: 380px;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       
+    }
+
+    .item1-border{
+        
+          
+           width: 140px;
+           height: 140px;
+           border-radius: 70px;
+           text-align: center;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           
+            background-color: hsla(256, 72%, 46%, 2);
+        
+        }
+        .item1-border h2{
+            color: var(--White);
+        }
+
+        .item1-h2{
+            color: var(--White);
+        }
+
+        .item1-p2{
+            text-align: center;
+            color: var(--White);
+            
+        }
+        .item1-p1{
+            color: var(--White);
+        }
+    .item2-reaction{
+        display: flex;
+        padding-left: 4px;
+        background-color: papayawhip;
+      
+        border-radius: 9px;
+    
+    }
+    .item2-reaction p{
+        color: var(--Lightred);
+    }
+    .item2-reaction img{
+        margin-right: 4px;
+    }
+    .item2-darsad{
+        position: relative;
+        left: 134px;
+ 
+    }
+    .item2-darsad p{
+        color: black;
+    }
+    .item2-memory{
+        display: flex;
+        padding-left: 4px;
+        background-color: #f3e8ea;
+       
+        border-radius: 9px;
+    }
+    .item2-memory img{
+        margin-right: 7px;
+    }
+    .item2-memory p{
+       color: var(--Orangeyyellow);
+    }
+ 
+
+    .item3-verbal{
+        display: flex;
+         padding-left: 4px;
+        background-color: #c7e7c7;
+    
+        border-radius: 9px;
+    }
+    .item3-verbal p{
+        color:var(--Greenteal);
+    }
+    .item3-darsad p{
+        position: relative;
+        left: 147px;
+        color: black;
+    }
+    .item3-verbal img{
+        margin-right: 7px;
+    }
+    
+
+    .item4-visual{
+        display: flex;
+       padding-left: 4px;
+        background-color: hsl(252deg 55.42% 84.1%);
+        border-radius: 9px;
+    }
+    .item4-visual p{
+        color:var(--Cobaltblue);
+    }
+    .item4-visual img{
+        margin-right: 7px;
+    }
+        
+    
+    .item4-darsad p{
+        position: relative;
+        left: 147px;
+        color: black;
+    }
+
+    .end{
+        
+            align-self: center;
+            margin-top: 15px;
+            background-color: hsl(224, 30%, 27%);
+            width: 252px;
+            padding: 15px;
+            border-radius: 30px;
+            text-align: center;
+            color: var(--White);
+            cursor: pointer;
+        }
+        .end:hover{
+            background-color: hsla(256, 72%, 46%, 1);
+        }
+        @font-face {
+            font-family: henken;
+            src: url(fonts/static/HankenGrotesk-Medium.ttf);
+        }
+        html{
+            font-family: henken;
+        }
+
+        @media (max-width: 400px) {
+            .container{display: flex;flex-direction: column;margin-top: -9px;margin-left: 103px;
+            border: 0;box-shadow: none;}
+            .item1{width: 134%;border-top-left-radius: 0;border-top-right-radius: 0}
+            .item1-p2 br{display: none;}
+            .item1 p2{font-size: 21px;}
+            .item1-p1{margin-bottom: -27px;}
+            .item2{width: 135%;padding-top: 0;height: 435px;}
+            .item2-darsad{position: relative;
+            left: 190px;}
+            .item3-darsad{position: relative;left: 59px;}
+            .item4-darsad{position: relative;left: 59px;}
+       
+
+           
+
+          }
+
+        
+    
