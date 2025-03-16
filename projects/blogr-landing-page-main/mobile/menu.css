@@ -1,0 +1,82 @@
+@media(max-width:400px){
+
+
+*{box-sizing: border-box;margin: 0;padding: 0;}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 505;
+    width: 80%;
+    height: 530px;
+    border: 1px solid blue;
+    border-radius: 13px;
+}
+ul{text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.login{
+    
+      
+        width: 60px;
+        height: 60px;
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 70px;
+        border-radius: 35px;
+       
+    }
+    .login a{
+        text-decoration: none;
+        color: black;
+    }
+    .signup a{
+        text-decoration: none;
+        color: black;
+    }
+.signup{
+    
+
+        width: 150px;
+        height: 70px;
+        border-radius: 35px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.login :hover{background-color:  hsl(13, 100%, 72%);width: 150px;
+height: 70px;border-radius: 70px;display: flex;justify-content: center;align-items: center;font-size: x-large;
+color: white;
+}
+.signup :hover{background-color:  hsl(13, 100%, 72%);width: 150px;
+    height: 70px;border-radius: 70px;display: flex;justify-content: center;align-items: center;font-size: x-large;
+    color: white;}
+
+    hr{margin-top:115px;}
+    body{display: flex;justify-content: center;align-items: center;margin-top: 60px;}
+}
