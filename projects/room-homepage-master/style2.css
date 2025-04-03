@@ -1,0 +1,130 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+:root{
+    --DarkGray: hsl(0, 0%, 63%);
+    --Black: hsl(0, 0%, 0%);
+    --White: hsl(0, 0%, 100%);
+    --VeryDarkGray: hsl(0, 0%, 27%);
+
+}
+body{
+    background-color:var(--VeryDarkGray);
+}
+@font-face {
+    font-family: s;
+    src: url(/font/League_Spartan/static/LeagueSpartan-SemiBold.ttf);
+}
+html{
+    font-family: s;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(1,801px)356px;
+    grid-template-columns: repeat(1,456px)810px 841px;
+    justify-content: center;
+   
+    
+}
+.container-content{
+    position: relative;
+    right: 165px;
+}
+  
+ .container-content img{
+    width: 120px;
+    gap: 30px;
+
+ }
+ .angle{
+    display: flex;
+    position: relative;
+    top: 150px;
+    right:296px;
+ }
+ .angle-left{
+    background-color: black;
+    width: 124px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.angle-left img{
+    width: 25px;
+}
+.angle-right{
+    background-color: black;
+    width: 124px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.angle-right img{
+    width: 25px;
+}
+
+.img1{
+   
+    background-image: url(images/desktop-image-hero-2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+   grid-row: 1/2;
+   grid-column: 1/3;
+   display: flex;
+    padding: 70px;
+    align-items: baseline;
+    font-size: xx-large;
+}
+   
+    
+    .img1 h2{color: var(--White);}
+.img1 ul{list-style-type: none;display: flex;padding: 30px;}
+
+.img1 ul li a{text-decoration: none;color: var(--White);padding: 20px;}
+.img2{
+    background-color:var(--White);
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        justify-content: center;
+        align-items:center;
+    
+        font-size: x-large;
+     
+    }
+    .img2 h1{
+        position: relative;
+        right: 125px;
+    }
+    .img2 p{
+        color: hsl(0, 0%, 63%);
+    }
+    
+.img3{
+    
+    background-image: url(images/image-about-dark.jpg);
+    background-size: cover;
+}
+.img4{
+    background-color:var(--White);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 20px;
+    font-size: 26px;
+    width: 131%;
+
+}
+.img4 p{
+    text-align: justify;
+    color: hsl(0, 0%, 63%);
+}
+.img5 img{
+ width: 37rem;
+ margin-left: 251px;
+}
+.container-content{
+    display: flex;
+  
+}

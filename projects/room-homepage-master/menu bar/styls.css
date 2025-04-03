@@ -1,0 +1,9 @@
+ul{display: flex;}
+li a{padding: 20px;text-decoration: none;color: black;}
+.container{font-size: large;}
+@media (max-width:400px){
+    nav{position: sticky;top: 0;}
+    nav ul{
+        list-style-type: none;
+    }
+}
