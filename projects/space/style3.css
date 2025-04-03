@@ -1,0 +1,82 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{
+    background-image: url(space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;background-size: cover;
+}
+.item1{
+    display: flex;
+    align-items: center;
+    padding: 90px;
+    gap: 80px;
+}
+
+hr{
+    width: 40%;
+    height: 0;
+}
+
+.item2 ul{
+    list-style-type: none;
+    display: flex;
+    
+    width: 70%;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+    padding: 45px;
+}
+.item2 ul li a{
+    text-decoration: none;
+    padding: 39px;
+    color: white;
+}
+.item2 ul li a:hover{
+    text-decoration: underline;
+}
+.item2{
+
+        position: relative;
+        left: 71rem;
+        bottom: 10rem;
+        width: 55%;
+         height: 106px;
+        font-size: large;
+        background-color: #1c2638;
+        display: flex;
+        align-items: center;
+        opacity: 0.70;
+    }
+
+    .h2{
+        color: white;
+        margin-bottom: 200px;
+        font-size: xx-large;
+       
+    }
+        
+    .s2{
+        color: gray;
+    }
+
+    .section1{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        font-size: xx-large;
+    }
+    .section1-h2{
+        color: gray;
+    }
+    .section1-p{
+        color: gray;
+    }
+
+    .section{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .section2 img{
+        width: 150%;
+    }

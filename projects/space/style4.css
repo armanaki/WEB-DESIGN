@@ -1,0 +1,142 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{
+    background-image: url(space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;background-size: cover;
+}
+.item1{
+    display: flex;
+    align-items: center;
+    padding: 90px;
+    gap: 80px;
+}
+
+hr{
+    width: 40%;
+    height: 0;
+}
+
+.item2 ul{
+    list-style-type: none;
+    display: flex;
+    
+    width: 70%;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+    padding: 45px;
+}
+.item2 ul li a{
+    text-decoration: none;
+    padding: 39px;
+    color: white;
+    
+}
+.item2 ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.item2{
+
+        position: relative;
+        left: 71rem;
+        bottom: 10rem;
+        width: 55%;
+         height: 106px;
+        font-size: large;
+        background-color: #1c2638;
+        display: flex;
+        align-items: center;
+        opacity: 0.70;
+    }
+    .s2{
+        color: gray;
+    }
+    .h2{
+        color: white;
+        margin-bottom: 200px;
+        font-size: xx-large;
+       position: relative;
+      right: 10rem;
+        }
+       
+    
+
+    .section1-list{
+        color: white;
+    }
+
+    .section{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section2 img{
+        width: 173%;
+        height: 90%;
+    }
+    .section1-list ul{
+        list-style-type: none;
+  
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            bottom: 130px;
+        
+        }
+    
+    .section-list h1{
+        font-size: 65px;
+    }
+    .section1-list{
+        font-size: x-large;
+    }
+    .list3{
+        margin-top: -75px;
+    }
+    .p1{
+   
+            border: 1px solid white;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            color: black;
+            border-radius: 57px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            right: 9rem;
+            top: 5rem;
+        }
+        .p2{
+            border: 1px solid white;
+            width: 100px;
+            height: 100px;
+            background-color: #1c2638;
+            color: black;
+            border-radius: 57px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            right: 9rem;
+            top: 5rem;
+        }
+        .p3{
+            border: 1px solid white;
+            width: 100px;
+            height: 100px;
+            background-color: #1c2638;
+            color: black;
+            border-radius: 57px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            right: 9rem;
+            top: 5rem;
+        }
+    
