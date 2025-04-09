@@ -1,0 +1,190 @@
+*{box-sizing: border-box;margin:0;padding: 0;}
+body{
+    background-color: #3F58AC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle1{
+ 
+        width: 200px;
+        height: 200px;
+        background-color: #F6C016;
+        position: absolute;
+        right: 0;
+        top: -2px;
+        border-radius: -3px;
+        border-bottom-left-radius: 200px;
+    }
+
+    .circle2{
+            width: 200px;
+            height: 200px;
+           background-color: #FFFFFF;
+         position: absolute;
+        bottom: 0;
+        left: 1px;
+      border-start-end-radius: 200px;
+            
+           
+    }
+    .container{
+       
+            width: 83%;
+            height: 950px;
+            background-color: #455FB3;
+            margin: 106px 0;
+            box-shadow: 2px 4px 40px black;
+            
+        
+    }
+
+    .nav{
+       
+            display: flex;
+            justify-content: space-around;
+            padding: 16px;
+            margin-top: -50px;
+        
+    }
+    
+
+    .list-nav ul{
+       list-style-type: none;
+       display: flex;
+       gap: 60px;
+    }
+    .list-nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: xxx-large;
+     }
+     .login-nav a{
+         text-decoration: none;
+         color: white;
+         padding: 20px;
+         font-size: x-large;
+     }
+     .login-nav a:hover{background-color: white;color: black;}
+     .login-nav{
+        display: flex;
+        gap: 20px;
+     }
+     .logo-nav{
+        color: white;
+        font-size: xxx-large;
+     }
+     .logo-nav span{
+        color: yellow;
+            font-size: 20px;
+            letter-spacing: 12px;
+        
+     }
+     .login-nav a{
+        border: 1px solid yellow;
+        border-radius: 40px;
+           
+        }
+
+        .circle3{
+           
+                border-radius: 50px;
+                width: 40px;
+                height: 40px;
+                position: relative;
+                left: 56rem;
+                top: 17rem;
+                background-color: white;
+                box-shadow: 1px 1px 50px white;
+            
+        }
+        .circle4{
+           
+                width: 60px;
+                height: 60px;
+                background-color: white;
+                border-radius: 40px;
+                position: relative;
+                left: 49rem;
+                top: 51rem;
+                box-shadow: 1px 1px 50px white;
+
+            
+        }
+        .circle5{
+      
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                border-radius: 50px;
+                position: relative;
+                left: 125rem;
+                top: 40rem;
+                box-shadow: 1px 1px 50px white;
+
+        }
+        .section{
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: -220px;
+        }
+        .section1{
+           
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                font-size: xx-large;
+                margin-top: 60px;
+                gap: 20px;
+                color: white;
+            
+        }
+        .section1-h1 {
+            font-family:'Sahel', sans-serif;
+            font-weight:bolder;
+        }
+        .section1-p p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .section1-login{
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .section1-login a{
+            text-decoration: none;
+            color: white;
+           
+            padding: 20px;
+        }
+        .section1-login a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 30px;
+        }
+        .section2-img img{
+            width: 206%;
+          
+                position: relative;
+                right: 190px;
+                bottom: 36px;
+            
+        }
+        .secttion-h2 h2{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .section-p p{
+            line-height: 2;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .list1{
+            font-size: 35px;
+        }
+        .list2{
+            font-size: 35px;
+        }
+        
+     
