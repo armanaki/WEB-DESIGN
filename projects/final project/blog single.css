@@ -1,0 +1,522 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{
+    background-color: black;
+    font-family: 'Vazir', sans-serif;
+
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+   
+   
+
+}
+.nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-list ul{
+list-style-type: none;
+display: flex;
+align-items: center;
+}
+.nav-list ul button{
+background-color: #DAC5A7;
+padding: 7px;
+font-size: 15px;
+cursor: pointer;
+}
+.nav-list ul li a{
+color: white;
+text-decoration: none;
+padding: 15px;
+color: #DAC5A7;
+font-size: 34px;
+}
+.nav-list{
+    box-shadow: 0px 0px 5px gray;
+   width: 30%;
+   padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-color: #DAC5A7;
+    background-color:#22201D
+    
+    }
+.nav-list img{
+width: 15%;
+}
+.item{
+    color: wheat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    
+}
+.read{
+
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    
+}
+.item1 h2{
+    font-size: 4rem;
+}
+.section{
+    display: flex;
+    gap: 30px;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.s-1{
+
+        
+        height: 7em;
+        width: 20%;
+        background-color: #22201D;
+        color: gray;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        justify-content: space-between;
+    
+    
+}
+.s-2{
+
+  
+    height: 7em;
+    width: 20%;
+    background-color: #22201D;
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+
+
+}
+.s2-h2 h2{
+    color: white;
+}
+.s2-h2-h2 h2{
+    color: white;
+}
+.s-3{
+    height: 7em;
+    width: 20%;
+    background-color: #22201D;
+        color: gray;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        justify-content: space-between;
+}
+.section1-img  img{
+    width:62% ;
+}
+.section1-img p{
+    text-align: center;
+}
+.section1{
+    margin-top: 1rem;
+}
+.section2{
+    color: gray;
+        display: flex;
+        flex-direction: column;
+            margin: 2rem 50rem;
+        
+    
+}
+.s2-f{
+
+       
+        height: 20em;
+        background-color: #22201D;
+        display: flex;
+        flex-direction: column;
+            gap: 40px;
+            font-size: x-large;
+            padding: 30px;
+            margin-top: 2rem;
+            color: whitesmoke;
+        
+    
+}
+.s2-img img{
+  
+        width: 4em;
+        border-radius: 56px;
+    
+}
+.s2-f-f{
+    display: flex;
+        gap: 20px;
+    align-items: center;
+}
+.s2-f1{
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    color: whitesmoke;
+    
+}
+.f2{
+  
+        width: 40%;
+        height: 5em;
+       
+        background-color: #22201D;
+        background-color: #22201D;
+        background-color: #22201D;
+        display: flex;
+        align-items: center;
+     
+            display: flex;
+            justify-content:space-around;
+
+    
+}
+.f3{
+
+        width: 40%;
+        height: 5em;
+       
+        background-color: #22201D;
+        background-color: #22201D;
+        display: flex;
+        align-items: center;
+     
+            display: flex;
+            justify-content:space-around;
+
+    
+}
+.f4{
+   
+        width: 40%;
+        height: 5em;
+      
+        background-color: #22201D;
+        display: flex;
+        align-items: center;
+     
+            display: flex;
+            justify-content:space-around;
+}
+.f4-1{
+    display: flex;
+    gap: 15px;
+}
+.section3{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    margin-top: 10rem;
+}
+.s3-p{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.s3-p p{
+    font-size: small;
+}
+.s3-h2 h2{
+color: wheat;
+}
+.section4{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: repeat(1,608px);
+    margin: 2rem 32rem;
+    gap: 20px;
+    
+}
+.box1{
+    background-color:#22201D;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: justify;
+    color: lightgray;
+    gap: 25px;
+}
+.box1-web{
+
+    border: 1px solid white;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.box1-img img{
+    width: 100%;
+}
+.box1-img p{
+    text-align: center;
+}
+.box1-h2 h2{
+    font-size: 15px;
+        color: wheat;
+        font-size: 18px;
+    
+}
+.box2{
+    background-color:#22201D;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: justify;
+    color: lightgray;
+    gap: 25px;
+}
+.box3{
+    background-color:#22201D;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: justify;
+    color: lightgray;
+    gap: 25px;
+}
+.section5{
+         
+    margin-top: 5rem;
+    text-align: center;
+
+}
+.section5 img{
+width: 100%;
+}
+.footer1{
+    height: 40rem;
+    color: #DAC5A7;
+    margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        gap: 80px;
+    
+
+}
+.footer4 a{
+
+    border: 1px solid white;
+    padding: 20px;
+    font-size: x-large;
+    color: black;
+    background-color: #DAC5A7;
+    display: flex;
+     text-decoration: none;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.footer4 img {
+width: 30px;
+}
+.footer2{
+    display: grid;
+    grid-template-columns: repeat(4,540px);
+    grid-template-rows: repeat(1,650px);
+    margin-top: 4rem;
+   }
+   .footer2-p{
+    font-size: 23px;
+   }
+   .list1{
+    background-color: black;
+   
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    
+  
+   }
+   .list2{
+    
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+            text-align: center;
+        
+    
+   }
+   .list3{
+    background-color: black;
+     margin-top: -112px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        text-align: center;
+   }
+   .list4{
+    background-color: black;
+     margin-top: -112px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        text-align: center;
+   }
+   .drible{
+    width: 8%;
+   }
+   .list1-img1{
+    
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    
+
+   }
+   .list1-img1 img{
+    width: 60px;
+   }
+   .list1-img1 p{
+    color: white;
+   }
+   .logo-list{
+    text-align: center;
+   }
+   .logo-list img{
+    width: 100px;
+   }
+   .list2-img2 p{
+    color: white;
+   }
+   .list2-img2 {
+ 
+   
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.list2-p p{
+color: #DAC5A7;
+}
+.list2-img2 img{
+width: 60px;
+}
+.list3-img3{
+    
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+
+
+}
+.list3-img3 img{
+width: 60px;
+}
+.list3-img3 p{
+color: white;
+}
+.list4-img4{
+    
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+
+
+}
+.list4-img4 p{
+color: white;
+}
+.list4-img4 img{
+width: 60px;
+}
+.list2 ul{
+list-style-type: none;
+gap: 50px;
+display: flex;
+flex-direction: column;
+}
+.list2 ul li a{
+text-decoration: none;
+color: #DAC5A7;
+font-size: x-large;
+}
+.list2-end{
+padding: 20px;
+background-color: #DAC5A7;
+justify-content: center;
+align-items: center;
+width: 40%;
+    display: flex;
+    gap: 15px;
+
+}
+.list2-end img{
+width: 15%;
+}
+.list3 ul{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+.list3 ul li a{
+text-decoration: none;
+color: #DAC5A7;
+}
+.list3-p p{
+color: #DAC5A7;
+}
+.list4 ul{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+.list4 ul li a{
+text-decoration: none;
+color: #DAC5A7;
+}
+.list4-p p{
+color: #DAC5A7;
+}
+.end{
+
+    color: #DAC5A7;
+    font-size: xx-large;
+    width: 154%;
+
+}
