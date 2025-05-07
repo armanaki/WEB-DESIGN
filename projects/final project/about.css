@@ -1,0 +1,487 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{
+    background-color: black;
+    font-family: 'Vazir', sans-serif;
+
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30rem;
+    margin-bottom: 3rem;
+
+}
+.nav{
+   
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nav-list  button{
+    background-color: #DAC5A7;
+    width: 10em;
+    height: 40px;
+    padding: 7px;
+    font-size: 15px;
+    cursor: pointer;
+ }
+ .nav-list ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    color: #DAC5A7;
+    font-size: 20px;
+}
+.nav-list{
+    
+    
+    width: 42%;
+    box-shadow: 0px 0px 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-color: #DAC5A7;
+    backdrop-filter: blur(10px);
+    padding: 8px;
+ 
+ 
+}
+.nav-list img{
+    width: 15%;
+}
+.nav-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.item2{
+    color: white;
+}
+.item2-about{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+  
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+       color: #DAC5A7;
+      
+}
+.item2-h2 h2{
+font-family:none;
+font-size: 5rem;
+}
+.item2-p p{
+    font-size: 2rem;
+}
+.item2-about img{
+    width: 20px;
+}
+.item1 img{
+    width: 100%;
+}
+.item3{
+
+ 
+        height: 60em;
+        width: 36%;
+        margin: auto 10rem auto auto;
+        background-color: #181716;
+            color:#DAC5A7;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+}
+.item3-img img{
+    width: 80%;
+}
+.item3-img{
+    text-align: center;
+}
+.item3-p1 p{
+    line-height: 3;
+}
+.item3-p1{
+    text-align: justify;
+}
+.section2{
+    display: grid;
+    grid-template-rows: repeat(2,40px);
+    grid-template-columns: repeat(3,148px);
+    margin: auto 10rem auto auto;
+    gap: 6px;
+    margin-top: 7px;
+}
+.box1{
+    background-color:#181716;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+.box1-ax img{
+    width: 19px;
+}
+.box1-p{
+    color: wheat;
+}
+.box2{
+    background-color:#181716;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+.box2-ax img{
+    width: 19px;
+}
+.box2-p{
+    color: wheat;
+}
+.box3{
+    background-color:#181716;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+.box3-ax img{
+    width: 19px;
+}
+.box3-p{
+    color: wheat;
+}
+.box4{
+    background-color:#181716;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+.box4-ax img{
+    width: 19px;
+}
+.box4-p{
+    color: wheat;
+}
+.box5{
+    background-color:#181716;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+.box5-ax img{
+    width: 19px;
+}
+.box5-p{
+    color: wheat;
+}
+.box6{
+    background-color:#181716;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+.box6-ax img{
+    width: 19px;
+}
+.box6-p{
+    color: wheat;
+}
+.section3{
+        border: 1px solid white;
+        width: 36%;
+        height: 35em;
+        margin: auto 35rem auto auto;
+        margin-top: 1rem;
+        color: #DAC5A7;
+    
+}
+.section3-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+    font-size: x-large;
+}
+.section5{
+   background-color:#181716 ;
+    margin: 1rem 10rem auto auto;
+    width: 36%;
+    height: 40em;
+    color:#DAC5A7;
+    display: flex;
+   flex-direction: column;
+   gap: 18px;
+   font-size: 10px;
+   padding: 30px;
+
+}
+.section5-number{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.section6{
+    margin-top: 10rem;
+}
+.section6 img{
+    width: 100%;
+}
+.footer1{
+    height: 40rem;
+    color: #DAC5A7;
+    margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        gap: 80px;
+    
+
+}
+.footer4 a{
+           
+    border: 1px solid white;
+                padding: 10px;
+                font-size: small;
+                color: black;
+                background-color: #DAC5A7;
+                display: flex;
+                 text-decoration: none;
+       
+                align-items: center;
+                justify-content: center;
+
+}
+.footer4 img{
+    width:15px;
+}
+.footer2{
+    display: grid;
+        grid-template-columns: repeat(4,300px);
+        grid-template-rows: repeat(1,650px);
+        justify-content: center;
+        align-items: center;
+   }
+   .footer2-p{
+    font-size: 11px;
+   }
+   .list1{
+    background-color: black;
+    margin-top: -126px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+  
+   }
+   .list2{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        text-align: center;
+        
+    
+   }
+   .list3{
+    background-color: black;
+    margin-top: -91px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+       justify-content: center;
+       align-items: center;
+       font-size: x-large;
+       text-align: center;
+   }
+   .list4{
+    background-color: black;
+         margin-top: -43px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+            text-align: center;
+   }
+   .drible{
+    width: 8%;
+   }
+   .list1-img1{
+    
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    
+
+   }
+   .list1-img1 img{
+    width: 30px;
+   }
+   .list1-img1 p{
+    color: white;
+    font-size: 10px;
+   }
+   .logo-list{
+    text-align: center;
+   }
+   .logo-list img{
+    width: 100px;
+   }
+   .list2-img2 p{
+    color: white;
+   }
+   .list2-img2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.list2-p p{
+color: #DAC5A7;
+}
+.list2-img2 img{
+width: 30px;
+}
+.list3-img3{
+    
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+
+
+}
+.list3-img3 img{
+width: 30px;
+}
+.list3-img3 p{
+color: wheat;
+}
+.list4-img4{
+    
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+
+
+}
+.list4-img4 p{
+color: white;
+}
+.list4-img4 img{
+width: 30px;
+}
+.list2 ul{
+list-style-type: none;
+gap: 20px;
+display: flex;
+flex-direction: column;
+}
+.list2 ul li a{
+text-decoration: none;
+color: #DAC5A7;
+font-size: 15px;
+}
+.list2-end{
+    padding: 7px;
+    background-color: #DAC5A7;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+        display: flex;
+        gap: 5px;
+        color: black;
+
+}
+.list2-end p{
+    font-size: 15px;
+   }
+.list2-end img{
+width: 17px;
+}
+.list3{
+    margin-top: -4px;
+}
+.list3 ul{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+.list3 ul li a{
+text-decoration: none;
+color: #DAC5A7;
+}
+.list3-p p{
+color: #DAC5A7;
+}
+.list4 ul{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.list4 ul li a{
+text-decoration: none;
+color: #DAC5A7;
+font-size: 15px;
+}
+.list4-p p{
+color: #DAC5A7;
+}
+.end{
+
+    color: #DAC5A7;
+    font-size:medium;
+    width:26em;
+
+}
