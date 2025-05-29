@@ -1,0 +1,24 @@
+*{box-sizing: border-box;}
+.menu-section{
+    width: 230px;
+    height: 370px;
+    background-color:aqua;
+    border-radius: 8px;
+    padding: 20px;
+    background-color:#fff ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: #009961;
+}
