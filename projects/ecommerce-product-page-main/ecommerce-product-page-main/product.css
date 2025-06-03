@@ -1,0 +1,260 @@
+*{box-sizing: border-box;}
+:root{
+    --Verydarkblue: hsl(220, 13%, 13%);
+     --Darkgrayishblue: hsl(219, 9%, 45%);
+     --Grayishblue: hsl(220, 14%, 75%);
+     --Lightgrayishblue: hsl(223, 64%, 98%);
+     --White:hsl(0,0%,100%);
+     --Black:hsl(0, 0%, 0%);
+     --Orange: hsl(26, 100%, 55%);
+     --Paleorange: hsl(25, 100%, 94%);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.profile2 img{
+      width: 40px;
+      border: 2px solid;
+      
+        border-radius: 20px;
+        border-color: white;
+    
+
+}
+.profile2 img:hover{
+    border-color: var(--Orange);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    display: none;
+}
+.list-nav{
+    
+        margin-left: -300px;
+    
+}
+.list-nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.list-nav ul li{
+    padding: 15px;
+}
+.list-nav ul li a{
+   text-decoration: none;
+   color: var(--Darkgrayishblue);
+}
+.list-nav ul li a:hover{
+  color: var(--Black);
+ }
+.nav-profile{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    
+}
+   .hr{
+    
+        border: 1px solid;
+        width: 76%;
+        display: flex;
+        margin-left: 12%;
+        color: var(--Lightgrayishblue);
+    
+}
+.s1-img1 img{
+    
+        width: 85%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    
+}
+
+.section{
+   
+        margin-top: 50px;
+       
+            display: flex;
+            padding: 20px 20px 0 200px;
+        }
+    
+.s1-imgs{
+    display: flex;
+}
+.s1-imgs img{
+    width: 62px;
+    border-radius: 10px;
+   
+}
+.s1-imgs{
+    gap: 10px;
+}
+
+.s2-p p{
+    
+        text-align: justify;
+        font-size: 11px;
+        line-height: 1.4;
+    
+}
+.s2-p{
+    color: var(--Darkgrayishblue);
+}
+.s2-dolar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.darsad {
+    
+    
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--Verydarkblue);
+        color: var(--White);
+    
+    
+}
+.sale{
+  
+        padding: 0px;
+        display: flex;
+        
+        width: 80px;
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        background-color: var(--Lightgrayishblue);
+    
+}
+.container-sale{
+    
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    
+}
+.card{
+    display:flex ;
+    gap: 10px;
+  
+        display: flex;
+        gap: 10px;
+        
+        padding: -2px;
+        background:var(--Orange);
+        width: 160px;
+        align-items: center;
+        justify-content: center;
+        padding: 9px;
+        border-radius: 15px;
+    }
+.card:hover{
+    background-color:var(--Paleorange);
+}
+.sale a{
+    text-decoration: none;
+}
+.card2 a{
+    text-decoration: none;
+    color: black;
+}
+.section2{
+    
+        display: flex;
+        flex-direction: column;
+       
+    
+}
+.s1-img1{
+    width: 68%;
+}
+.section1{
+width: 50%;
+}
+.s2-h2{
+    font-size: 2rem;
+}
+.s2-h2 h2{
+    margin: 0;
+}
+
+@media (max-width:400px){
+    .list-nav{
+        display: none;
+    }
+    .icon{
+        display: flex;
+    }
+    .nav{
+        justify-content: space-evenly;
+    }
+    .s1-imgs{
+        display: none;
+    }
+    .section{
+        padding: unset;
+        flex-direction: column;
+    }
+    .s1-img1 img{
+        width: 390px;
+        margin-top: -52px;
+        border-radius: unset;
+    }
+    .del{
+      
+            position: relative;
+            left: 18rem;
+            bottom: 3rem;
+            width: fit-content;
+            color: var(--Darkgrayishblue);
+        }
+    .container-sale{
+        flex-direction: column;
+    }
+    .section2{
+        padding: 15px;
+    }
+    .s2-h2{
+        font-size: 21px;
+    }
+    .s2-p{
+        font-size: 16px;
+    }
+    .s2-p p{
+        font-size: unset;
+    }
+    .s2-h3{
+        color:var(--Darkgrayishblue);
+    }
+    .sale{
+       
+            width: 95%;
+            padding: 10px;
+        
+    }
+    .card{
+        width: 95%;
+        padding: 10px;
+    }
+    .s2-dolar div{
+        font-size: 23px;
+    }
+    .darsad{
+        width: 60px;
+    }
+}
