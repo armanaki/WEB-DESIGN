@@ -306,9 +306,7 @@ nav img{
       .nav-invite{
          display: none;
       }
-      nav img{
-         display:block;
-      }
+   
      
       .container{
          display: flex;
@@ -348,6 +346,7 @@ nav img{
       }
       nav a img{
          width: 50px;
+          display:flex
       }
       .container2{
          height: 98rem;
