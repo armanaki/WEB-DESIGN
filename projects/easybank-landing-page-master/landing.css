@@ -307,7 +307,7 @@ nav img{
          display: none;
       }
       nav img{
-         display: flex;
+         display:block;
       }
      
       .container{
