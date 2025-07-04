@@ -17,7 +17,7 @@ nav{
     justify-content: space-evenly;
     display: flex;
 }
-nav img{
+nav a img{
    display: none;
 }
 .nav-list ul{
