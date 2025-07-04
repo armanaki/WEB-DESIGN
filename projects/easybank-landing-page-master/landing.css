@@ -306,7 +306,7 @@ nav img{
       .nav-invite{
          display: none;
       }
-      .nav-img{
+      nav img{
          display: flex;
       }
      
