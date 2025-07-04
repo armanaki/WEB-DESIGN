@@ -346,7 +346,7 @@ nav a img{
       }
       nav a img{
          width: 50px;
-          display:flex
+          display:flex;
       }
       .container2{
          height: 98rem;
